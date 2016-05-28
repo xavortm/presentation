@@ -1354,6 +1354,8 @@ body {
   box-sizing: border-box; }
   .reveal .box.red {
     background-color: #d3333c; }
+  .reveal .box.green {
+    background-color: #2db13c; }
   .reveal .box.blue {
     background-color: #231d30; }
 
@@ -1386,16 +1388,15 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 35px;
-  padding: 20px !important;
+  padding: 15px !important;
   border-top: 1px solid #ddd;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   background: white;
   z-index: 90;
   font-size: 22px;
-  font-size: 35px !important; }
+  font-size: 25px !important; }
   .reveal .slide-footer .logo {
-    height: 50px;
+    height: 40px;
     float: right;
     margin-top: -8px;
     margin-right: 60px; }
@@ -1530,3 +1531,50 @@ body {
 
 .reveal .mr-10 {
   margin-right: 20px !important; }
+
+.reveal .flow {
+  text-align: center; }
+  .reveal .flow hr.separator {
+    height: 1px;
+    background: #fff;
+    border: none;
+    display: block;
+    margin: 30px 0;
+    position: relative; }
+    .reveal .flow hr.separator:before, .reveal .flow hr.separator:after {
+      display: inline-block;
+      content: '';
+      position: absolute;
+      right: 200px;
+      bottom: -30px;
+      height: 60px;
+      width: 40px;
+      background: url(../lib/img/1464444382_arrow-right.png) no-repeat;
+      background-size: contain;
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg); }
+  .reveal .flow .item {
+    font-size: 35px;
+    font-weigh: bold;
+    color: white;
+    background: #000;
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    position: relative; }
+    .reveal .flow .item:after {
+      content: '';
+      display: inline-block;
+      height: 40px;
+      width: 100px;
+      background: url(../lib/img/1464444382_arrow-right.png) no-repeat;
+      background-size: contain;
+      position: absolute;
+      right: -100px; }
+    .reveal .flow .item:last-child:after {
+      display: none; }
+  .reveal .flow .row:last-of-type .item:after {
+    right: -40px;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
