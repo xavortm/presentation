@@ -1340,6 +1340,9 @@ body {
   background-repeat: no-repeat !important;
   background-size: contain !important; }
 
+.reveal .dark {
+  color: white !important; }
+
 .reveal .box {
   background: #000;
   color: #FFF;
