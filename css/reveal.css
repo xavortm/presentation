@@ -1346,10 +1346,13 @@ body {
 div.has-dark-background {
   box-shadow: inset 0 0 500px black; }
 
+.reveal h1 {
+  font-family: Montserrat; }
+
 .reveal .slide-background {
-  background-position: 0 0 !important;
+  background-position: bottom 100% right 0 !important;
   background-repeat: no-repeat !important;
-  background-size: contain !important; }
+  background-size: inherit; }
 
 .reveal p {
   font-size: 40px;
@@ -1553,6 +1556,32 @@ div.has-dark-background {
 .reveal .mr-10 {
   margin-right: 20px !important; }
 
+.reveal .questions p {
+  margin-bottom: 20px; }
+
+.reveal .questions a {
+  color: #237AE4;
+  text-decoration: none;
+  font-weight: bold; }
+
+.reveal .questions .questions-group {
+  position: relative;
+  margin-left: 100px;
+  width: 80%;
+  margin-top: 200px; }
+
+.reveal .questions .travolta {
+  position: fixed;
+  height: 580px;
+  width: 700px;
+  top: 490px;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+  z-index: 10;
+  pointer-events: none;
+  background: url("../lib/img/confused.gif") no-repeat;
+  right: 73px; }
+
 .reveal .flow {
   text-align: center; }
   .reveal .flow hr.separator {
@@ -1598,3 +1627,25 @@ div.has-dark-background {
     right: -40px;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg); }
+
+.reveal blockquote {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 1.3;
+  text-shadow: 0 2px 5px black;
+  color: white; }
+
+.reveal .quote-author {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 120px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  display: inline-block;
+  border-radius: 100px; }
+
+.reveal .bgfull {
+  background-size: cover !important; }
