@@ -1354,6 +1354,9 @@ div.has-dark-background {
   background-repeat: no-repeat !important;
   background-size: inherit; }
 
+.reveal [data-background-hash="lib/img/hospital-cant-be-remote.jpgnullnullnullnullnullnullnullnull"] {
+  background-size: cover !important; }
+
 .reveal p {
   font-size: 40px;
   color: #999; }
