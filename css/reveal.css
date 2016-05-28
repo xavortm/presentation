@@ -1335,10 +1335,20 @@ html:-moz-full-screen-ancestor {
 body {
   font-family: Roboto; }
 
+div.has-dark-background {
+  box-shadow: inset 0 0 500px black; }
+
 .reveal .slide-background {
   background-position: 0 0 !important;
   background-repeat: no-repeat !important;
   background-size: contain !important; }
+
+.reveal p {
+  font-size: 40px;
+  color: #999; }
+
+.reveal .intro {
+  background: #444; }
 
 .reveal .dark {
   color: white !important; }

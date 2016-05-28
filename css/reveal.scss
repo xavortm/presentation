@@ -1422,6 +1422,10 @@ body {
 	font-family: Roboto;
 }
 
+div.has-dark-background {
+	box-shadow: inset 0 0 500px black;
+}
+
 .reveal {
 	// .slides {
 	// 	transform: translate(-50%, -50%) scale(1) !important;
@@ -1432,6 +1436,15 @@ body {
 		background-position: 0 0 !important;
 		background-repeat: no-repeat !important;
 		background-size: contain !important;
+	}
+
+	p {
+		font-size: 40px;
+		color: #999;
+	}
+
+	.intro {
+		background: #444;
 	}
 
 	.dark {
