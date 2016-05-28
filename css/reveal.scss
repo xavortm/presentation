@@ -1476,10 +1476,16 @@ div.has-dark-background {
 	}
 
 	.intro {
+		z-index: 999;
+		position: relative;
+
 		heading {
 			text-align: left;
 			border-left: 20px solid #F5B316;
 			display: block;
+			background: white;
+			
+			padding: 40px;
 			padding-left: 100px;
 
 			p {
@@ -1783,6 +1789,3 @@ div.has-dark-background {
 	}
 
 }
-
-
-

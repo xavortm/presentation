@@ -1373,21 +1373,25 @@ div.has-dark-background {
   width: 100vh;
   display: block; }
 
-.reveal .intro heading {
-  text-align: left;
-  border-left: 20px solid #F5B316;
-  display: block;
-  padding-left: 100px; }
-  .reveal .intro heading p {
-    color: #999; }
-
-.reveal .intro > p {
-  text-align: left;
-  margin-left: 120px;
-  margin-top: 100px;
-  line-height: 1.7;
-  font-weight: normal;
-  font-family: Georgia, serif; }
+.reveal .intro {
+  z-index: 999;
+  position: relative; }
+  .reveal .intro heading {
+    text-align: left;
+    border-left: 20px solid #F5B316;
+    display: block;
+    background: white;
+    padding: 40px;
+    padding-left: 100px; }
+    .reveal .intro heading p {
+      color: #999; }
+  .reveal .intro > p {
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 100px;
+    line-height: 1.7;
+    font-weight: normal;
+    font-family: Georgia, serif; }
 
 .reveal .head-slide {
   background: #444; }

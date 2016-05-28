@@ -18,7 +18,6 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<script src="js/jquery.particleground.min.js"></script>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -263,7 +262,7 @@
 						<li>Cool remote environment - offtopic, chill channels/groups etc</li>
 					</ul> -->
 
-					<img src="lib/img/gif_happy.gif" alt="" style="transform: rotate(10deg) translateY(100px) scale(1.2)" />
+					<img src="lib/img/gif_happy.gif" alt="" style="transform: rotate(6.4deg) translateY(176px) translateX(-29px) scale(0.97); border-radius: 10px;" />
 
 				</section>
 
@@ -357,6 +356,9 @@
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/jquery.particleground.min.js"></script>
+
 		<script>
 
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -384,7 +386,11 @@
 
 
 
-			particleground(document.getElementsByClassName('.intro'));
+			$('.intro').particleground({
+				dotColor: '#ccc',
+			    lineColor: '#ccc',
+			    parallax: false
+			});
 
 		</script>
 
