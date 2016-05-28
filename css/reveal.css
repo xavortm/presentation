@@ -1354,6 +1354,10 @@ div.has-dark-background {
   background-repeat: no-repeat !important;
   background-size: inherit; }
 
+.reveal .speaker-notes {
+  background: black;
+  z-index: 99; }
+
 .reveal [data-background-hash="lib/img/hospital-cant-be-remote.jpgnullnullnullnullnullnullnullnull"] {
   background-size: cover !important; }
 
