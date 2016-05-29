@@ -1475,15 +1475,41 @@ div.has-dark-background {
 		display: block;
 	}
 
+	.button {
+		background: #333;
+		color: white;
+		font-weight: bold;
+		font-family: Montserrat;
+		padding: 10px 30px;
+		border-radius: 100px;
+		font-size: 30px;
+		margin-right: 20px;
+
+		&.devrix { background: #40A23E; }
+		&.twitter { background: #7AB6FF; }
+	}
+
+	.pg-canvas {
+		z-index: -1;
+	}
+
 	.intro {
 		z-index: 999;
 		position: relative;
+		text-align: left;
+
+		&.past {
+			display: none !important;
+		}
 
 		heading {
 			text-align: left;
 			border-left: 20px solid #F5B316;
 			display: block;
 			background: white;
+			position: relative;
+			z-index: 1;
+			margin-bottom: 100px;
 			
 			padding: 40px;
 			padding-left: 100px;
@@ -1503,7 +1529,7 @@ div.has-dark-background {
 		}
 	}
 
-	.head-slide {
+	div.head-slide {
 		background: #444;
 	}
 
@@ -1789,3 +1815,6 @@ div.has-dark-background {
 	}
 
 }
+
+
+.pg-canvas { position: absolute; }

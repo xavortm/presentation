@@ -1373,14 +1373,37 @@ div.has-dark-background {
   width: 100vh;
   display: block; }
 
+.reveal .button {
+  background: #333;
+  color: white;
+  font-weight: bold;
+  font-family: Montserrat;
+  padding: 10px 30px;
+  border-radius: 100px;
+  font-size: 30px;
+  margin-right: 20px; }
+  .reveal .button.devrix {
+    background: #40A23E; }
+  .reveal .button.twitter {
+    background: #7AB6FF; }
+
+.reveal .pg-canvas {
+  z-index: -1; }
+
 .reveal .intro {
   z-index: 999;
-  position: relative; }
+  position: relative;
+  text-align: left; }
+  .reveal .intro.past {
+    display: none !important; }
   .reveal .intro heading {
     text-align: left;
     border-left: 20px solid #F5B316;
     display: block;
     background: white;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
     padding: 40px;
     padding-left: 100px; }
     .reveal .intro heading p {
@@ -1393,7 +1416,7 @@ div.has-dark-background {
     font-weight: normal;
     font-family: Georgia, serif; }
 
-.reveal .head-slide {
+.reveal div.head-slide {
   background: #444; }
 
 .reveal .dark {
@@ -1684,3 +1707,6 @@ div.has-dark-background {
 
 .reveal .bgfull {
   background-size: cover !important; }
+
+.pg-canvas {
+  position: absolute; }
