@@ -1484,9 +1484,16 @@ div.has-dark-background {
 		border-radius: 100px;
 		font-size: 30px;
 		margin-right: 20px;
+		padding-left: 70px;
 
-		&.devrix { background: #40A23E; }
-		&.twitter { background: #7AB6FF; }
+		&.devrix {
+			background: #40A23E url(../lib/img/link.png) no-repeat left 30px center;
+			background-size: 30px;
+		}
+		&.twitter {
+			background: #7AB6FF url(../lib/img/twitter.png) no-repeat left 30px center;
+			background-size: 30px;
+		}
 	}
 
 	.pg-canvas {
@@ -1510,7 +1517,7 @@ div.has-dark-background {
 			position: relative;
 			z-index: 1;
 			margin-bottom: 100px;
-			
+
 			padding: 40px;
 			padding-left: 100px;
 
@@ -1738,7 +1745,7 @@ div.has-dark-background {
 			display: block;
 			margin: 30px 0;
 			position: relative;
-			
+
 			&:before,
 			&:after {
 				display: inline-block;

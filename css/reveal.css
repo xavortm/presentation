@@ -1381,11 +1381,14 @@ div.has-dark-background {
   padding: 10px 30px;
   border-radius: 100px;
   font-size: 30px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  padding-left: 70px; }
   .reveal .button.devrix {
-    background: #40A23E; }
+    background: #40A23E url(../lib/img/link.png) no-repeat left 30px center;
+    background-size: 30px; }
   .reveal .button.twitter {
-    background: #7AB6FF; }
+    background: #7AB6FF url(../lib/img/twitter.png) no-repeat left 30px center;
+    background-size: 30px; }
 
 .reveal .pg-canvas {
   z-index: -1; }
