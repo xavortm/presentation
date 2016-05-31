@@ -1411,6 +1411,8 @@ div.has-dark-background {
     padding-left: 100px; }
     .reveal .intro heading p {
       color: #999; }
+    .reveal .intro heading h1 {
+      font-size: 95px; }
   .reveal .intro > p {
     text-align: left;
     margin-left: 120px;
